@@ -23,6 +23,17 @@
 
 ## Creational patterns
 
+
+
+### Factory Method 
+
+객체를 생성하기 위해 인터페이스를 정의하고 서브클래스에서 어떤 인스턴스를 생성할지 결정하는 방법
+
+`new` operator 를 통해 객체를 생성하지 않는다. 객체 생성에 다형성을 부여하고 싶은 경우에 Factory Method 를 쓰면 된다. 
+
+뭐 예를들면 운송수단(Transport)을 통해서 배송을 하는데 `ship` 을 통해서 해야하는지 `truck` 을 통해서 해야하는지 결정 지어줘야할 때. 
+
+
 ***
 
 ## Structural patterns
