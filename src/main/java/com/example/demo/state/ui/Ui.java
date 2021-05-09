@@ -1,4 +1,4 @@
-package com.example.demo.state;
+package com.example.demo.state.ui;
 
 import javax.swing.*;
 import java.awt.*;

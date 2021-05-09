@@ -1,5 +1,10 @@
 package com.example.demo.strategy;
 
+import com.example.demo.strategy.order.Order;
+import com.example.demo.strategy.strategies.PayByCreditCard;
+import com.example.demo.strategy.strategies.PayByPayPal;
+import com.example.demo.strategy.strategies.PayStrategy;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

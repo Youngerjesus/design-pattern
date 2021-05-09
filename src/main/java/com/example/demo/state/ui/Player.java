@@ -1,6 +1,7 @@
-package com.example.demo.state;
+package com.example.demo.state.ui;
 
-import com.zaxxer.hikari.util.FastList;
+import com.example.demo.state.states.ReadyState;
+import com.example.demo.state.states.State;
 
 import java.util.ArrayList;
 import java.util.List;

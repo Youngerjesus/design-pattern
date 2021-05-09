@@ -1,4 +1,6 @@
-package com.example.demo.strategy;
+package com.example.demo.strategy.order;
+
+import com.example.demo.strategy.strategies.PayStrategy;
 
 /**
  * Order class. Doesn't know the concrete payment method (strategy) user has

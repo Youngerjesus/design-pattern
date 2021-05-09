@@ -1,4 +1,6 @@
-package com.example.demo.state;
+package com.example.demo.state.states;
+
+import com.example.demo.state.ui.Player;
 
 /*
  8 Common interface for all states

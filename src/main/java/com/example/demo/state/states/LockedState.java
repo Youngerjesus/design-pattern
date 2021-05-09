@@ -1,4 +1,6 @@
-package com.example.demo.state;
+package com.example.demo.state.states;
+
+import com.example.demo.state.ui.Player;
 
 public class LockedState extends State{
 

@@ -1,4 +1,4 @@
-package com.example.demo.strategy;
+package com.example.demo.strategy.strategies;
 
 /*
  * Common interface for all strategies
