@@ -55,6 +55,14 @@ Applicability
 
 ## Structural patterns
 
+### Adapter 
+
+어댑터 패턴은 호환되지 않는 인터페이스를 가진 두 객체가 서로 협력할 수 있도록 하는 패턴이다. 
+
+뭐 예를들면 주식 앱에서 데이터를 XML 형식으로 다운받았지만 데이터 분석 라이브러리는 JSON 형식이 필요한 경우다. 이런 경우에 어댑터 페턴을 사용할 수 있다.
+
+
+
 ***
 
 ## Behavioral patterns
