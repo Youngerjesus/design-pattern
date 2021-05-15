@@ -14,6 +14,7 @@ https://refactoring.guru/design-patterns
    
  - [Adapter](#Adapter)
  - [Decorator](#Decorator)
+ - [Composite](#Composite)
  
   <br/>
   
