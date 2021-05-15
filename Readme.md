@@ -104,6 +104,16 @@ Applicability
  
 ***
 
+### Composite
+
+컴포지트 패턴은 트리 구조로 작성된 복합 객체를 단일 객체로 취급하는 것을 목적으로 한다. 
+
+
+
+
+
+***
+
 ## Behavioral patterns
 
 ### Strategy
