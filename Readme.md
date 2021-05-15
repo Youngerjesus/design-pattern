@@ -7,6 +7,7 @@ https://refactoring.guru/design-patterns
 ## [목차]
 [Creational patterns](#Creational-patterns) <br/>
  - [Factory Method](#Factory-Method)
+ - [Abstract Factory](#Abstract-Factory)
   
   <br/>
   
@@ -26,8 +27,6 @@ https://refactoring.guru/design-patterns
 ***
 
 ## Creational patterns
-
-
 
 ### Factory Method 
 
@@ -52,6 +51,12 @@ Applicability
 - 매번 기존 객체를 다시 빌드하지 않고 객체를 재사용해서 리소스를 절약하고 싶다면 팩토리 메소드 패턴을 사용해라 
 
   - 리소스에 민감한 객체를 다루는 경우 (데이버테이스 커넥션, 네트워크 리소스 등) 미리 여러개 만들어놓고 재사용하는게 이점이 많다. 
+
+***
+
+### Abstract Factory
+
+추상 팩토리 패턴은 구체적인 클래스를 지정하지 않고 객체의 집합을 생성할 수 있는 디자인 패턴이다.  
 
 ***
 
