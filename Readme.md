@@ -194,7 +194,7 @@ Applicability
 
 ***
 
-## Template Method
+### Template Method
 
 템플릿 메소드 패턴은 슈퍼 클래스에서 수행해야할 주요 알고리즘의 구조를 짜놓고 서브 클래스에서는 이들의 구현 내용을 채우는 방식의 디자인 패턴이다.
 
