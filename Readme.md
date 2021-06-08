@@ -9,6 +9,7 @@ https://refactoring.guru/design-patterns
  - [Factory Method](#Factory-Method)
  - [Abstract Factory](#Abstract-Factory)
  - [Builder](#Builder)  
+ - [Prototype](#Prototype)
   
   <br/>
   
@@ -106,6 +107,23 @@ Applicability
 
   - 빌더 패턴을 이용하면 단계별로 객체를 생성하고 일부 단계의 실행을 잠시 미룰수도 있기 떄문에 복잡한 객체를 만드는데 적합하다. 그리고 빌더 패턴을 이용하면 완성된 시점에 객체를 반환할 수 있기 때문에 클라이언트가 불완전한 객체를 쓰도록 하지 않을 수 있다. 
   
+***
+
+### Prototype
+
+새로운 객체를 복사하고 싶다면 new 키워드를 통해서 객체를 생성하고 객체의 모든 필드를 복사해야 하는 번거로움이 있다. 
+
+게다가 필드가 private 하다면 복사하기도 어렵다는 단점도 있다. 
+
+하지만 Prototype 패턴을 이용하면 객체와 결합해서 복사하지 않고 clone 이라는 메소드를 정의해서 복사할 수 있도록 할 수 있다. 
+
+Applicability 
+
+= 프로토타입 패턴을 사용하면 다양한 방식으로 구성된 사전 빌드된 객체 집합을 프로토타입으로 사용할 수 있다. 
+  
+  - 클라이언트는 일부 구성과 일치하는 하위 클래스를 인스턴스화하는 대신 적절한 프로토타입을 찾아 복제할 수 있다. 
+
+
 ***
 
 ## Structural patterns
