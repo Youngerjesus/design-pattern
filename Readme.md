@@ -19,7 +19,7 @@ https://refactoring.guru/design-patterns
  - [Decorator](#Decorator)
  - [Composite](#Composite)
  - [Proxy](#Proxy)
- = [Flyweight](#Flyweight)
+ - [Flyweight](#Flyweight)
  
   <br/>
   
