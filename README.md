@@ -29,7 +29,7 @@ https://refactoring.guru/design-patterns
 - [Strategy](#Strategy)
 - [State](#State)
 - [Template Method](#Template-Method)
-= [Visitor](#Visitor)
+- [Visitor](#Visitor)
 
 ***
 
