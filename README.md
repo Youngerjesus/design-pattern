@@ -1,14 +1,7 @@
 # Design Pattern
 
-https://refactoring.guru/design-patterns
-
-집중해서 볼 사항
-
-- 어떤 문제를 해결하기 위해 이런 디자인 패턴이 나왔는지를 파악하자. 
-
-- 언제 이 디자인 패턴을 사용하는지를 파악하자. 
-
-- 어떻게 이 디자인 패턴을 사용하는지를 파악하자.   
+- https://refactoring.guru/design-patterns
+- https://www.inflearn.com/course/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4
  
 ***
 
