@@ -9,7 +9,7 @@
 Creational patterns
 
  - [Factory Method](references/factory_method.md)
- - [Abstract Factory](#Abstract-Factory)
+ - [Abstract Factory](references/abstract_factory.md)
  - [Builder](#Builder)  
  - [Prototype](#Prototype)
   
@@ -33,35 +33,6 @@ Creational patterns
 - [Template Method](#Template-Method)
 - [Visitor](#Visitor)
 
-***
-
-## Creational patterns
-
-### Abstract Factory
-
-추상 팩토리 패턴은 구체적인 클래스를 지정하지 않고 객체의 집합을 생성할 수 있는 디자인 패턴이다.  
-
-주로 추상 팩토리 패턴은 팩토리 메소드 패턴이랑 비교되는데 차이점은 명확하다. 
-
-- 팩토피 메소드 패턴
-
-  - 조건에 따른 객체 생성을 팩토리 클래스에 위임한다. 팩토리 클래스에서 객체를 생성한다.
-  
-- 추상 팩토리 패턴
-
-  - 서로 관련이 있는 객체를 통째로 묶어서 팩토리 클래스로 만들고 이 팩토리를 조건에 따라 생성하고 팩토리가 객체를 생성하는 패턴
-  
-추상 팩토리 패턴은 팩토리 메소드 패턴을 좀 더 캡슐화한 방식이라고 생각하면 된다. 
-
-Applicability 
-
-- 추상 팩토리 패턴은 다양한 종류의 객체 집합을 생성하면서 이런 객체의 구체적인 클래스는 필요 없는 경우 (미래에 확장을 신경쓰고 싶은 경우)에 사용해라.
-
-  - 팩토리 메소드 패턴을 집합 형태로 가지고 있는 클래스가 있다면 추상 팩토리 패턴을 고려해봐라.
-  
-  - 여러 객체들 중 조건에 따라 객체가 만들어지고 각 객체는 서로 대체 가능할 때 이 패턴을 쓰는 것을 고려해보면 좋다. 
-  
-- 객체가 생성되는 방식이 시스템과 독립적으로 만들고자 할 때 이 패턴을 사용하라 
 ***
 
 ### Builder
