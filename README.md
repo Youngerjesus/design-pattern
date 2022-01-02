@@ -10,7 +10,7 @@ Creational patterns
 
  - [Factory Method](references/factory_method.md)
  - [Abstract Factory](references/abstract_factory.md)
- - [Builder](#Builder)  
+ - [Builder](references/builder.md)  
  - [Prototype](#Prototype)
   
   <br/>
@@ -33,30 +33,6 @@ Creational patterns
 - [Template Method](#Template-Method)
 - [Visitor](#Visitor)
 
-***
-
-### Builder
-
-빌더 패턴을 이용해서 복잡한 Constructor 를 한단계 한단계씩 순서와 상관없이 값을 넣음으로써 객체를 만들 수 있다. 
-
-복잡한 객체를 생성할 때 생성자에 많은 변수를 넣어서 생성하고 클래스 자체가 생성에 관해서 많은 변경사항이 있을 수 있다. 이를 분리시키는 목적으로 빌더 패턴들 이용하는 것. 
-
-빌더를 통해서 객체 생성에 필요한 값을 넣을 수 있도록 인터페이스를 정의하고 각각의 메소드를 직접 호출해서 객체를 생성할 수 있지만  
-
-Director 를 이용해서 실제적으로 생성에 필요한 값을 순서대로 넣어주도록 해줄 수 있다. 그리고 Builder 클래스의 build() 메소드를 통해서 실제 객체를 생성한다. 
- 
-Applicability
-
-- 생성자 매개변수가 많은 경우에 생성자 오버로딩을 통해서 생성자를 정의하는 것보다 빌더 패턴으로 step by step 으로 생성하는 게 더 편하다고 느끼는 경우에 빌더 패턴을 이용해라. 
-
-- 같은 Product 를 약간씩 다르게 표현해야 한다면 빌더 패턴을 이용해서 객체를 생성해라 
-
-  - 빌더패턴을 이용해서 약간씩 다른 다양한 생성자들을 정의하고 Director 를 이용해서 약간씩 차이나는 부분에 대해서 값을 넣어주도록 하면 된다. 
-  
-- Composite 패턴의 객체를 생성하거나 다른 복잡한 객체를 생성할 때 빌더 패턴을 사용하라.
-
-  - 빌더 패턴을 이용하면 단계별로 객체를 생성하고 일부 단계의 실행을 잠시 미룰수도 있기 떄문에 복잡한 객체를 만드는데 적합하다. 그리고 빌더 패턴을 이용하면 완성된 시점에 객체를 반환할 수 있기 때문에 클라이언트가 불완전한 객체를 쓰도록 하지 않을 수 있다. 
-  
 ***
 
 ### Prototype
