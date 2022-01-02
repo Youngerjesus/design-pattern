@@ -1,8 +1,8 @@
-package com.example.demo.factory_method;
+package com.example.demo.factory_method.example_buttons;
 
-import com.example.demo.factory_method.factory.Dialog;
-import com.example.demo.factory_method.factory.HtmlDialog;
-import com.example.demo.factory_method.factory.WindowDialog;
+import com.example.demo.factory_method.example_buttons.factory.Dialog;
+import com.example.demo.factory_method.example_buttons.factory.HtmlDialog;
+import com.example.demo.factory_method.example_buttons.factory.WindowDialog;
 
 public class Demo {
     private static Dialog dialog;

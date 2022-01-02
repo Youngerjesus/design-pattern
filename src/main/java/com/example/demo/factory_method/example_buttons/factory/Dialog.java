@@ -1,6 +1,6 @@
-package com.example.demo.factory_method.factory;
+package com.example.demo.factory_method.example_buttons.factory;
 
-import com.example.demo.factory_method.buttons.Button;
+import com.example.demo.factory_method.example_buttons.buttons.Button;
 
 public abstract class Dialog {
 

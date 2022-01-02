@@ -1,4 +1,4 @@
-package com.example.demo.factory_method.buttons;
+package com.example.demo.factory_method.example_buttons.buttons;
 
 public class HtmlButton implements Button{
 
