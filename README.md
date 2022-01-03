@@ -12,6 +12,7 @@ Creational patterns
  - [Abstract Factory](references/abstract_factory.md)
  - [Builder](references/builder.md)  
  - [Prototype](#Prototype)
+ - [Singleton](references/singleton.md)
   
   <br/>
   
