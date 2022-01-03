@@ -11,7 +11,7 @@ Creational patterns
  - [Factory Method](references/factory_method.md)
  - [Abstract Factory](references/abstract_factory.md)
  - [Builder](references/builder.md)  
- - [Prototype](#Prototype)
+ - [Prototype](references/prototype.md)
  - [Singleton](references/singleton.md)
   
   <br/>
@@ -33,23 +33,6 @@ Creational patterns
 - [State](#State)
 - [Template Method](#Template-Method)
 - [Visitor](#Visitor)
-
-***
-
-### Prototype
-
-새로운 객체를 복사하고 싶다면 new 키워드를 통해서 객체를 생성하고 객체의 모든 필드를 복사해야 하는 번거로움이 있다. 
-
-게다가 필드가 private 하다면 복사하기도 어렵다는 단점도 있다. 
-
-하지만 Prototype 패턴을 이용하면 객체와 결합해서 복사하지 않고 clone 이라는 메소드를 정의해서 복사할 수 있도록 할 수 있다. 
-
-Applicability 
-
-- 프로토타입 패턴을 사용하면 다양한 방식으로 구성된 사전 빌드된 객체 집합을 프로토타입으로 사용할 수 있다. 
-  
-  - 클라이언트는 일부 구성과 일치하는 하위 클래스를 인스턴스화하는 대신 적절한 프로토타입을 찾아 복제할 수 있다. 
-
 
 ***
 
