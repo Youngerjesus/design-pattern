@@ -33,6 +33,7 @@ ShipFactory.orderShip(shipName, ShipType.BLACK_SHIP)
 public class ShipFactory {
 	public static Ship orderShip(String shipName, ShipType shipType) {
 		if (shipType == ShipType.WHITE_SHIP) {
+			...
 			ship = new WhiteShip(); 	
 		}
 		else if (shipType == ShipType.BLACK_SHIP) {
