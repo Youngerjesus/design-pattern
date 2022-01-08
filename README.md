@@ -22,6 +22,7 @@ Structural patterns
  - [Proxy](#Proxy)
  - [Flyweight](#Flyweight)
  - [Bridge](references/structual_patterns/bridge.md)
+ - [Facade](references/structual_patterns/facade.md)
  
   <br/>
   
