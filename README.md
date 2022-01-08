@@ -8,17 +8,15 @@
 ## [목차]
 Creational patterns
 
- - [Factory Method](references/factory_method.md)
- - [Abstract Factory](references/abstract_factory.md)
- - [Builder](references/builder.md)  
- - [Prototype](references/prototype.md)
- - [Singleton](references/singleton.md)
-  
-  <br/>
-  
-[Structural patterns](#Structural-patterns) <br/> 
+ - [Factory Method](references/creational_patterns/factory_method.md)
+ - [Abstract Factory](references/creational_patterns/abstract_factory.md)
+ - [Builder](references/creational_patterns/builder.md)  
+ - [Prototype](references/creational_patterns/prototype.md)
+ - [Singleton](references/creational_patterns/singleton.md)
+    
+Structural patterns 
    
- - [Adapter](#Adapter)
+ - [Adapter](references/structual_patterns/adapter.md)
  - [Decorator](#Decorator)
  - [Composite](#Composite)
  - [Proxy](#Proxy)
@@ -37,26 +35,6 @@ Creational patterns
 ***
 
 ## Structural patterns
-
-### Adapter 
-
-어댑터 패턴은 호환되지 않는 인터페이스를 가진 두 객체가 서로 협력할 수 있도록 하는 패턴이다. 
-
-뭐 예를들면 주식 앱에서 데이터를 XML 형식으로 다운받았지만 데이터 분석 라이브러리는 JSON 형식이 필요한 경우다. 이런 경우에 어댑터 페턴을 사용할 수 있다.
-
-Applicability 
-
-- 기존의 존재하는 클래스를 이용하지만 호환가능하지 않을때 어댑터 패턴을 사용하라. 
-
-  - 이런 방식의 사용은 중간 계층의 레이어를 통해 변환해주는 역할을 어댑터가 한다고 생각하면 된다.
-  
-- 기존의 기능이 부족한 서브 클래스를 재사용 하고싶고 공통적인 기능을 슈퍼 클래스에 넣기 힘들때 어댑터 패턴을 사용하면 해결할 수 있다.
-
-  - 슈퍼 클래스에 기능을 넣기 어렵고 서브 클래스에 기능을 추가해 확장해서 사용하기에는 코드가 중복되고 지저분한 경우에 이런 어댑터 패턴을 사용한다. 
-  
-  - 어댑터 패턴을 이용해 객체를 감싸고 공통 인터페이스를 통해 공통된 기능을 추가한다. 이런 패턴은 런타임 시점에 동적으로 결정이 가능하며 데코레이터 패턴과 유사하디.   
-
-***
 
 ### Decorator
 
