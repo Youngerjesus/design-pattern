@@ -18,7 +18,7 @@ Structural patterns
    
  - [Adapter](references/structual_patterns/adapter.md)
  - [Decorator](#Decorator)
- - [Composite](#Composite)
+ - [Composite](references/structual_patterns/composite.md)
  - [Proxy](#Proxy)
  - [Flyweight](#Flyweight)
  - [Bridge](references/structual_patterns/bridge.md)
