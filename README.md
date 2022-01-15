@@ -19,7 +19,7 @@ Structural patterns
  - [Adapter](references/structual_patterns/adapter.md)
  - [Decorator](references/structual_patterns/decorator.md)
  - [Composite](references/structual_patterns/composite.md)
- - [Proxy](#Proxy)
+ - [Proxy](references/structual_patterns/proxy.md)
  - [Flyweight](references/structual_patterns/flyweight.md)
  - [Bridge](references/structual_patterns/bridge.md)
  - [Facade](references/structual_patterns/facade.md)
@@ -32,38 +32,6 @@ Structural patterns
 - [State](#State)
 - [Template Method](#Template-Method)
 - [Visitor](#Visitor)
-
-***
-
-## Structural patterns
-
-### Proxy 
-
-프록시 패턴은 다른 객체에 대한 대체자를 제공해주고 이 객체에 접근하기 전에 또는 이 객체의 로직 수행 후에 어떠한 작업을 수행하도록 하는 패턴이다. 
-
-주로 사용하는 방식은 어떤 기능을 바로 실행하기 보다 모았다가 일괄적으로 처리하도록 하거나 캐싱을 하는 역할을 하도록 한다. 
-
-또 다른 사용 예는 객체를 생성할 때 시스템 상의 많은 리소스가 필요한 경우 lazy initialization 을 통해 성능상의 이점을 보기 위해서도 사용한다. 
- 
-Applicability 
-
-- Lazy initialization 을 위해서 프록시 패턴을 사용한다.
-
-  - 어플리케이션이 시작할 때 모든 객체를 초기화 하는 것보다 시스템 리소스를 많이 먹는 무거운 객체가 있다면 Lazy initialization 을 통해 필요할 때 초기화가 되도록 할 수 있다.
-  
-- Access control 이 필요할 때 프록시 패턴을 사용한다. 
-
-  - 뭐 예를 들면 특정 클라이언트만 이 객체를 사용할 수 있도록 설정한다던지. 이 프록시 패턴에서 credential 이 있는 클라이언트만 서비스를 받을 수 있도록 할 수 있다.
-  
-- 요청을 전달할 서비스 객체가 다른 서버에 있는 경우 프록시 패턴을 사용한다. 
-
-  - 이 경우 프록시는 네트워크를 통해 클라이언트 요청을 전달화고 네트워크 작업에 대한 모든 처리는 프록시가 한다. 
-  
-- 어떤 객체의 로직에 추가로 로그를 남기는 작업을 할 때 프록시 패턴을 사용한다. 
-
-- 요청 처리에 캐싱을 적용할 때 프록시 패턴을 사용한다.
-
-- 프록시 패턴을 이용해서 클라이언트를 헬스 체크하도록 하고 클라이언트가 살아있지 않다면 리스트에서 지우도록 하면서 동작하도록 할 수 있다. 
 
 ***
 
