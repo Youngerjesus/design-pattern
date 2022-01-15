@@ -28,6 +28,7 @@ Behavioral patterns
 
 - [Chain of responsibility](references/behavioral_patterns/chain_of_responsibility.md)
 - [Command](references/behavioral_patterns/command.md)
+- [Iterator](references/behavioral_patterns/iterator.md)
 - [Strategy](#Strategy)
 - [State](#State)
 - [Template Method](#Template-Method)
