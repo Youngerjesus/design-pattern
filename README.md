@@ -24,11 +24,10 @@ Structural patterns
  - [Bridge](references/structual_patterns/bridge.md)
  - [Facade](references/structual_patterns/facade.md)
  
-  <br/>
-  
-[Behavioral patterns](#Behavioral-patterns)
+Behavioral patterns
 
 - [Chain of responsibility](references/behavioral_patterns/chain_of_responsibility.md)
+- [Command](references/behavioral_patterns/command.md)
 - [Strategy](#Strategy)
 - [State](#State)
 - [Template Method](#Template-Method)
