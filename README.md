@@ -20,7 +20,7 @@ Structural patterns
  - [Decorator](references/structual_patterns/decorator.md)
  - [Composite](references/structual_patterns/composite.md)
  - [Proxy](#Proxy)
- - [Flyweight](#Flyweight)
+ - [Flyweight](references/structual_patterns/flyweight.md)
  - [Bridge](references/structual_patterns/bridge.md)
  - [Facade](references/structual_patterns/facade.md)
  
@@ -64,18 +64,6 @@ Applicability
 - 요청 처리에 캐싱을 적용할 때 프록시 패턴을 사용한다.
 
 - 프록시 패턴을 이용해서 클라이언트를 헬스 체크하도록 하고 클라이언트가 살아있지 않다면 리스트에서 지우도록 하면서 동작하도록 할 수 있다. 
-
-***
-
-### Flyweight
-
-동일한 객체를 자주 생성해서 사용할 때 매번 다시 생성하지 않고 객체풀에 저장해놓고 재활용하는 패턴이다. 메모리 절약과 객체 생성시 소요되는 시간을 줄일 수 있어서 성능에 이점을 줄 수 있다. 
-
-예를들면 게임을 만드는데 게임 맵에 있는 객체들을 매번 만들어줘야 하는 것보다 재사용하는게 더 낫다. 
-
-Applicability 
-
-- 너의 프로그램이 사용 가능한 RAM 량보다 생성해야 할 객체의 수가 많다면 Flyweight 패턴을 사용하는게 좋다. 
 
 ***
 
