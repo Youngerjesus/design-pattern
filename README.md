@@ -28,6 +28,7 @@ Structural patterns
   
 [Behavioral patterns](#Behavioral-patterns)
 
+- [Chain of responsibility](references/behavioral_patterns/chain_of_responsibility.md)
 - [Strategy](#Strategy)
 - [State](#State)
 - [Template Method](#Template-Method)
