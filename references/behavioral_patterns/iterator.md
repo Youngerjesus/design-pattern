@@ -68,7 +68,7 @@ public class Board {
 public class Board {
 	...
 	// 변경된 요구사항 
-	public Iterator<Post> getDefaultIterator() {
+	public Iterator<Post> getRecentIterator() {
 		return new RecentPostIterator(this); 
 	}
 }
@@ -97,7 +97,7 @@ public class RecentPostIterator implements Iterator<Post> {
 
 ```
 
-- 요구사항이 변경된다고 해도 순회를 하는 클라이언트 측의 코드는 변경되지 않는다.
+- 순회하는 자료구조가 변경된다고 해도 순회를 하는 클라이언트 측의 코드는 변경되지 않는다.
 - 여기서 Board 가 인터페이스까지 있고 Override 메소드 중 iterator 를 리턴하는게 있다면 더욱 확장에 열려있을 것.
 
 

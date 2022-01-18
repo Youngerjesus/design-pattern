@@ -4,9 +4,10 @@ flyweight 뜻은 가볍다 라는 뜻이다.
 
 주로 인스턴스를 많이 생성하는 어플리케이션에서 메모리의 효율성을 위해 인스턴스를 재사용할 수 있도록 하는 패턴이다.
 
-- 자주 변하는 속성과 (extrinsit) , 변하지 않는 속성 (intrinsit) 을 분리해서 재사용한다.
-    - 자주 변하지 않는 속성은 Immutable 해야한다. (당연한 소리. 객체를 공유해서 사용하는 것이기 때문에 Immutable 하지 않아서 객체의 값이 예상과 다르다면 문제를 찾기 힘들다.)
-- FlyweightFactory 를 통해서 캐싱을 해두고 제공함으로써 재사용하는 방식을 말한다.
+- 이 패턴을 쓸 땐 자주 변하는 속성과 (extrinsit) , 변하지 않는 속성 (intrinsit) 을 분리해서 재사용할 수 있는 부분을 찾는다.
+    - 주의할 점은 자주 변하지 않는 속성은 Immutable 해야한다. 
+    - (당연한 소리. 객체를 공유해서 사용하는 것이기 때문에 Immutable 하지 않아서 객체의 값이 예상과 다르다면 문제를 찾기 힘들다.)
+- Flyweight Factory 를 통해서 캐싱을 해두고 제공함으로써 재사용하는 방식을 말한다.
 - 이걸 보니 자바 성능 튜닝에 있는 Heap Memory Best Practice 도 보면 좋지 않을까? 라는 생각이든다.
     - 메모리 효율성을 제공하는 측면에서 같은 이야기를 하는 것이니.
 
@@ -19,7 +20,7 @@ public class Character {
 	private String fontFamily;
 	private int fontSize; 
 
-	public Font(char value, String color, String fontFamily, int fontSize) {
+	public Character(char value, String color, String fontFamily, int fontSize) {
 		this.value = value; 
 		this.color = color; 
 		this.fontFamily = fontFamily; 

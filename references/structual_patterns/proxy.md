@@ -64,7 +64,7 @@ public class CachedYouTubeClass implements ThirdPartyYouTubeLib {
 	
 	@Override 
 	public List<Video> listVideos() {
-		if (listCache.isEmpty() || isNeedReset) 
+		if (isNeedReset || listCache.isEmpty()) 
 			listCache = thirdPartyYoutubeLib.listVideos(); 
 
 		return listCache; 
@@ -72,7 +72,7 @@ public class CachedYouTubeClass implements ThirdPartyYouTubeLib {
 
 	@Override
 	public Video getVideoInfo(long id) {
-		if (videoCache.containseKey(id) || isNeedReset) {
+		if (isNeedReset || videoCache.containseKey(id)) {
 			Video video = thirdPartyYoutubeLib.getVideoInfo(id); 
 			videoCache.put(id, video); 
 		}
@@ -82,7 +82,7 @@ public class CachedYouTubeClass implements ThirdPartyYouTubeLib {
 
 	@Override 
 	public Video downloadVideo(long id) [
-		if (!downloadExists(id) || isNeedReset) {
+		if (isNeedReset || !downloadExists(id)) {
 			Video video = thirdPartyYoutubeLib.downloadVideo(id); 
 			downloadCache.put(id, video);
 		}

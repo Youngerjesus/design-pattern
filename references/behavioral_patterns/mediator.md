@@ -117,7 +117,7 @@ public class Restaurant {
 
 스프링 MVC 에 있는 DispatcherServlet 을 Mediator 로 볼 수 있다.
 
-- DisppatcherServlet 만이 여러개의 컴포넌트를 참조하고 중재해줌으로써 다른 컴포넌트들끼리 서로의 참조를 없앴다.
+- DisppatcherServlet 만이 여러개의 컴포넌트를 참조하고 중재해줌으로써 다른 컴포넌트들끼리 서로의 참조를 없앴다. (그래서 더 이해하기 쉽다.)
 - Controller 와 View 들, 그리고 Controller 는 Request Context 에 대해서 몰라도 된다.
 
 또 다른 예) 전쟁

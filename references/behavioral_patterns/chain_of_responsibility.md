@@ -3,7 +3,7 @@
 책임들이 체인 형태로 이어진 것을 떠올리면 된다.
 
 - 여기서 책임은 SOLID 의 SRP 를 떠오르면 된다. 클래스가 특정한 책임을 가지고 있다. 그리고 이것들이 연결된 구조.
-- 요청을 처리하는 쪽과 요청을 보내는 쪽을 구별시키고 (인터페이스 타입에 의존하도록 하면서 = Decoupling) 하나의 클래스가 너무 많은 책임을 가지고 요청을 처리할 때, 책임마다 클래스를 분리시켜서 처리하도록 만드는 패턴이다.
+- 요청을 처리하는 쪽과 요청을 보내는 쪽을 구별시키고 하나의 클래스가 너무 많은 책임을 가지고 요청을 처리할 때, 책임마다 클래스를 체인식으로 분리시켜서 처리하도록 만드는 패턴이다.
 
 Chain of Reponsibility 를 적용하지 않았다면 다음과 같이 될 것이다.
 
@@ -31,7 +31,7 @@ public class RequestHandler {
 
 - 현재 RequestHandler 는 단순히 request body 를 가지고와서 요청을 처리하면 되는 로직이지만 미래에 인증과 인가, 요청의 유효함, 로깅 등을 체크한다고 생각해보자.
 - 이 경우에는 단순히 RequestHandler 의 handle() 메소드에 추가한다면 코드가 방대해지고 많은 책임을 떠안을 것이다.
-- 다른 방법으로 RequestHandler 를 상속한 AuthenticationRequestHandler 같은 걸 추가한다고 하면 SRP 는 지킬 수 있으나 이렇게 되면 클라이언트의 코드가 변경될 여지가 많다.
+- 다른 방법으로 RequestHandler 를 상속한 AuthenticationRequestHandler 같은 걸 추가한다고 하면 SRP 는 지킬 수 있으나 이렇게 되도 코드가 방대해질 여지가 많다.
 
 Chain of reponsibility 를 적용하면 다음과 같이 될 것이다.
 
