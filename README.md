@@ -30,6 +30,7 @@ Behavioral patterns
 - [Command](references/behavioral_patterns/command.md)
 - [Iterator](references/behavioral_patterns/iterator.md)
 - [Mediator](references/behavioral_patterns/mediator.md)
+- [Memento](references/behavioral_patterns/memento.md)
 - [Strategy](#Strategy)
 - [State](#State)
 - [Template Method](#Template-Method)
