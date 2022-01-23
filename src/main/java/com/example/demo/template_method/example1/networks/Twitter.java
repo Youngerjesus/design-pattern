@@ -1,7 +1,7 @@
-package com.example.demo.template_method.networks;
+package com.example.demo.template_method.example1.networks;
 
-public class Facebook extends Network {
-    public Facebook(String username, String password) {
+public class Twitter extends Network {
+    public Twitter(String username, String password) {
         this.username = username;
         this.password = password;
     }
@@ -14,9 +14,8 @@ public class Facebook extends Network {
         for (int i = 0; i < this.password.length(); i++) {
             System.out.print("*");
         }
-
         simulateNetworkLatency();
-        System.out.println("\n\n Login Success on Facebook");
+        System.out.println("\n\nLogIn success on Twitter");
         return true;
     }
 
@@ -42,7 +41,7 @@ public class Facebook extends Network {
     protected boolean sendData(byte[] data) {
         boolean messagePosted = true;
         if (messagePosted) {
-            System.out.println("Message: '" + new String(data) + "' was posted on Facebook");
+            System.out.println("Message: '" + new String(data) + "' was posted on Twitter");
             return true;
         } else {
             return false;
@@ -51,6 +50,6 @@ public class Facebook extends Network {
 
     @Override
     protected void logOut() {
-        System.out.println("User: '" + username + "' was logged out from Facebook");
+        System.out.println("User: '" + username + "' was logged out from Twitter");
     }
 }

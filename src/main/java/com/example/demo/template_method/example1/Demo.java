@@ -1,8 +1,8 @@
-package com.example.demo.template_method;
+package com.example.demo.template_method.example1;
 
-import com.example.demo.template_method.networks.Facebook;
-import com.example.demo.template_method.networks.Network;
-import com.example.demo.template_method.networks.Twitter;
+import com.example.demo.template_method.example1.networks.Network;
+import com.example.demo.template_method.example1.networks.Facebook;
+import com.example.demo.template_method.example1.networks.Twitter;
 
 import java.io.BufferedReader;
 import java.io.IOException;

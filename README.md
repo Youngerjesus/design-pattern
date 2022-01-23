@@ -34,7 +34,7 @@ Behavioral patterns
 - [Observer](references/behavioral_patterns/observer.md)
 - [Strategy](#Strategy)
 - [State](#State)
-- [Template Method](#Template-Method)
+- [Template Method](references/behavioral_patterns/template_method.md)
 - [Visitor](references/behavioral_patterns/visitor.md)
 
 ***
@@ -86,23 +86,4 @@ Applicability
 
 - 클래스가 필드 값 조건에 따라 다르게 행동하고 있도록 설계되었다면 이 패턴을 통해서 개선할 수 있다. 
 
-- 상태 기반으로 검사하는 조건문이 중복되는 경우가 많다면 이 패턴을 사용할 수 있다. 
-
-
-***
-
-### Template Method
-
-템플릿 메소드 패턴은 슈퍼 클래스에서 수행해야할 주요 알고리즘의 구조를 짜놓고 서브 클래스에서는 이들의 구현 내용을 채우는 방식의 디자인 패턴이다.
-
-즉 전체적으로는 동일한 구조를 가지면서 부분적으로 조금씩 다르다면 이 패턴을 사용해 코드 중복을 최소화 할 수 있다. (겹치는 부분은 슈퍼 클래스에서 정의하면 되므로)
-
-Applicability
-
-- 전체 알고리즘의 구조는 바뀌진 않지만 각각의 클라이언트가 세부 구현을 채워넣을 수 있도록 하고싶다면 템플릿 메소드 패턴을 사용하라.
-
-  - 템플릿 메소드 패턴을 사용해서 전체의 큰 모놀리식 알고리즘을 각각의 스텝들로 이뤄진 알고리즘으로 바꾸고 그 알고리즘을 서브 클래스에서 정의하도록 해라.
-  
-- 몇몇의 클래스가 있고 각각의 알고리즘이 약간씩만 차이가 있다면 이 디자인 패턴을 사용하라. 이로인해 변경을 줄일 수 있다. 
-
-  -  유사한 코드를 슈퍼 클래스로 옮겨서 코드 중복을 제거할 수 있고 하위 클래스에서는 달라지는 부분만 채워 넣을 수 있다.
+- 상태 기반으로 검사하는 조건문이 중복되는 경우가 많다면 이 패턴을 사용할 수 있다.

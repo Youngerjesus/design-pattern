@@ -1,4 +1,4 @@
-package com.example.demo.template_method.networks;
+package com.example.demo.template_method.example1.networks;
 
 public abstract class Network {
     String username;
