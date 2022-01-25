@@ -156,13 +156,6 @@ public class Watch implements Device {
 - 이 경우 Visitor 는 Phone 과 Watch 그리고 Element 는 Rectangle 과 Triangle 이다.
 - 이렇게 변경하게 되면서 print 를 하는 로직을 Device 에다가 넣게 되었고, 새로운 Device 가 나온다고 해도 Element 에서 변경되는 코드는 없다.
 
-대안1) 도형 클래스마다 if-else 절로 처리
-
-여기서 다형성 처리를 해주려면 어떻게 해야할까? 결과적으로 도형 입장에선 디바이스인 인터페이스 타입을 받고 그 인터페이스에서 자신의 도형을 출력하도록 해야한다.
-
-그러므로 도형은 디바이스를 인자로 받고 해당 디바이스에게 자신의 타입을 알려주는 두 번의 디스패치를 하면 된다. 이걸 더블 디스패치 (Double Dispatch) 라고 부른다.
-
-- 여기서 말하는 Dispatch 는 자바의 다형성에서 구체적인 클래스의 메소드를 찾아서 실행하는 걸 말한다.
 
 ### 장점과 단점
 
